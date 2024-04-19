@@ -1,0 +1,30 @@
+:root { 
+  --black: #000000;
+  --diesel: #0b0000;
+  --dove-gray: #707070;
+  --white: #ffffff;
+ 
+  --font-size-l: 60px;
+  --font-size-m: 46px;
+  --font-size-s: 45px;
+  --font-size-xs: 34px;
+  --font-size-xxs: 26px;
+ 
+  --font-family-segoeui-bold: "SegoeUI-Bold", Helvetica;
+  --font-family-segoeui-regular: "SegoeUI-Regular", Helvetica;
+}
+.segoeui-bold-diesel-60px {
+  color: var(--diesel);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.segoeui-regular-normal-diesel-46px {
+  color: var(--diesel);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
